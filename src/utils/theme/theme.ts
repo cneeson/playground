@@ -2,8 +2,8 @@ const breakpoints = ['28em', '40em', '52em', '64em', '76em', '90em'];
 
 const theme = {
   fonts: {
-    heading: 'courier, sans-serif',
-    body: 'Roboto, Arial, Helvetica, sans-serif'
+    heading: 'system-ui, sans-serif',
+    body: 'system-ui, sans-serif'
   },
   fontWeights: {
     regular: 400,
@@ -49,19 +49,21 @@ const theme = {
     '6rem'
   ],
   radii: {
-    sm: '4px',
-    md: '.5rem'
+    sm: '.25rem',
+    md: '.5rem',
+    lg: '.75rem'
   },
   borders: {
     sm: '1px solid'
   },
   colors: {
-    background: '#202040',
-    backgroundAccent: '#543864',
-    primary: '#ff6363',
+    background: 'white',
+    backgroundAccent: '#fafafa',
+    backgroundHighlight: '#eaeaea',
+    primary: '#875f9a',
     secondary: '#ffbd69',
     tertiary: '',
-    text: 'white',
+    text: 'black',
     focus: 'rgba(80, 177, 156, 0.5)',
     grey: [
       '#f6f7fa',

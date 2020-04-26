@@ -1,15 +1,17 @@
-import TestPlayground from "./routes/playgrounds/TestPlayground";
+import ReactQuery from "./routes/playgrounds/ReactQuery";
 
 interface Route {
     to: string;
     label: string;
+    description?: string;
     Com: any;
 };
 
-export default <Route[]>[
+export default [
     {
-        to: '/test-playground',
-        label: 'Test Playground',
-        Com: TestPlayground
+        to: '/react-query',
+        label: 'React Query',
+        description: 'A few experiments with the react-query library.',
+        Com: ReactQuery
     }
-];
+] as Route[];
