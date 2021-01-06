@@ -15,7 +15,7 @@
     "@types/react-router-dom": "^5.1.4",
     "@types/styled-components": "^5.0.1",
     "@types/styled-system": "^5.1.9",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-query": "^1.2.9",
